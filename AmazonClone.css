@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border : border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;    
+}
+.border{
+    border:1.5px solid transparent;
+    
+}
+.border:hover{
+    border:1.5px solid wheat;
+    border-radius: 10px;
+}
+/**Box2**/
+.address1{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address2{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**Box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 166, 0);
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #F3F3F3 ;
+    width: 50px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    text-align: center;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex; /* important concept (flex-box layout) for center alignment */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:  #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    color: #0f1111;
+}
+/**Box4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem ;
+    font-weight: 700;
+}
+/**Box6**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**Panel**/
+.panel{
+    height:40px;
+    background-color: #22212f;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(240, 233, 233);
+    align-items: center;
+}
+.panel-ops p {
+    display: inline;
+}
+.panel-ops{
+    width: 70%;
+    font-size:0.85 rem;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
